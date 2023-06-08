@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-e">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="caixa">
+
+        <img src="./gamer.png" alt="foto do game">
+
+        <h1>O que você encontra aqui</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod deleniti, esse harum iusto voluptatum
+            sint
+            reiciendis autem doloribus nesciunt praesentium debitis ex eum nobis. Accusantium possimus dolorum nihil
+            labore.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quibusdam. Rerum, cumque? Laborum,
+            inventore.
+            Ratione labore odit quasi! Accusamus iste error quibusdam odit assumenda, eius iure non quisquam neque
+            porro.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod deleniti, esse harum iusto voluptatum
+            sint
+            reiciendis autem doloribus nesciunt praesentium debitis ex eum nobis. Accusantium possimus dolorum nihil
+            labore.
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod deleniti, esse harum iusto voluptatum
+            sint
+            reiciendis autem doloribus nesciunt praesentium debitis ex eum nobis. Accusantium possimus dolorum nihil
+            labore.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quibusdam. Rerum, cumque? Laborum,
+            inventore.
+            Ratione labore odit quasi! Accusamus iste error quibusdam odit assumenda, eius iure non quisquam neque
+            porro.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod deleniti, esse harum iusto voluptatum
+            sint
+            reiciendis autem doloribus nesciunt praesentium debitis ex eum nobis. Accusantium possimus dolorum nihil
+            labore.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quibusdam. Rerum, cumque? Laborum,
+            inventore.
+            Ratione labore odit quasi! Accusamus iste error quibusdam odit assumenda, eius iure non quisquam neque
+            porro.
+        </p>
+
+        <button onclick="abrir()">Entrar em contato</button>
+    </div>
+
+    <form action="https://formsubmit.co/sebastiaoms1972@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Nome">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea type="text" name="duvida" placeholder="Sua dúvida aqui"></textarea>
+        <button type="submit">Enviar</button>
+        <button  onclick="fechar()" type="button" class="voltar">Voltar</button>
+    </form>
+
+</body>
+<script>
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("div").style.opacity = 0.2
+        
+    }
+
+    function fechar(){
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("div").style.opacity = 2
+        }
+
+
+
+</script>
+
+</html>
